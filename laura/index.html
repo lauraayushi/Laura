@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+	<title>Hotels in Mombasa</title>
+</head>
+<body>
+	<div class="container">
+		<h1>WELCOME TO MOMBASA</h1>
+	        <h2>TOP 10 HOTELS </h2>
+				<div class="row1">
+					<div class="col-md-6">
+						<img src="images/TravellersBeachhotel.jpg">
+							<p>Travellers Beach Hotel<br>
+							Ksh 32,000 per night</br></p>
+					</div>
+					<div class="col-md-6">
+						<img src="images/dianibeach.jpg">
+							<p>Diani Beach Hotel<br>
+				             Ksh 42,500 per night</br></p>
+					</div>
+				</div>
+				<div class="row2">
+					<div class="col-md-6">
+						<img src="images/kahama hotel.jpg">
+							<p><strong>Kahama Hotel</strong><br>
+					         Ksh 31,600 per night</br></p>
+					</div>
+					<div class="col-md-6">
+						<img src="images/dianibeach.jpg">
+							<p><strong>Diani Beach Hotel</strong><br>
+						      Ksh 22,400 per night</br></p>
+					</div>
+				</div>
+		   <div class="row3">
+			 <div class="col-md-6">
+			  <img src="images/nyalibeach.jpg">
+ 			  <p><strong>Nyali Beach Hotel</strong><br>Ksh 32,500 per night</br></p>
+			  </div>
+				<div class="col-md-6">
+				 <img src="images/mombasabeachhotel.jpg">
+				  <p><strong>Mombasa Beach Hotel</strong><br>Ksh 52,400 per night.</br></p>
+				  </div>
+				 </div>
+				  <div class="row4">
+					<div class="col-md-6">
+					 <img src="images/bamburihotel.jpg">
+					 <p><strong>Bamburi Hotel</strong><br>Ksh 42,000 per night</br></p>
+					</div>
+					<div class="col-md-6">
+					 <img src="images/serenahotel.jpg">
+					  <p><strong>Serena Hotel</strong><br>Ksh 23,500 per night</br></p>
+					</div>
+			  </div>
+	</div>
+	<div class ="container">
+	<div class ="row">
+	 <div class ="col-xs-10 col-xs-offset-1 text-center ">
+      <form id="bookhotel">
+            <div class="form-group">
+              <label for="hotel">Choose<br>hotel</br></label>
+              <input type="text" id="hotel" placeholder="hotel name">
+             </div>
+            <div class="form-group">
+              <label for="checkin">Check<br>In</br></label>
+              <input type="datetime-local" id="checkin">
+            </div>
+                <div class="form-group">
+                  <label for="checkout">Check<br>Out</br></label>
+                  <input type="datetime-local" class="chekout" >
+                </div>
+                <div class="form-group">
+                  <label for="room">Rooms</label>
+                  <input type="text" class="room" placeholder="No. of rooms">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="text" class="email" placeholder="youremail@email.com">
+                </div>
+            <button class="btn btn-primary" type="button" id="booknow">Book Now</button>
+         </form>
+        </div>
+       </div>
+	 </div>
+	</div>
+	<div id="fit">0</div>
+</body>
+</html>
